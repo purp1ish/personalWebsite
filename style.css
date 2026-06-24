@@ -1,0 +1,136 @@
+h1{
+    color: #341F28;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+
+
+
+
+
+}
+
+p{
+    color: #341F28;
+    line-height: 1.8;
+}
+
+body{
+    background-color: #D8EFFD;
+    color:#341F28;
+    text-align: center;
+}
+
+.github-link{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #341F28;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.github-link:hover{
+    background-color:#341F28;
+    color: #D8EFFD;
+}
+
+
+.korean-version{
+    margin-top: 50px;
+}
+
+.korean-version-link{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #341F28;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.korean-version-link:hover{
+    background-color:#341F28;
+    color: #D8EFFD;
+}
+
+.email-link{
+    display: inline-block;
+    margin-top: 20px;
+    color: #341F28;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.email-link:hover{
+    color: #D8EFFD;
+    background-color: #341F28;
+}
+
+.cat-album{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cat-album img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+
+}
+
+.cat-album img:hover{
+    transform: scale(1.05);
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu {
+    background-color: #FFF7D5;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 0px;
+    
+}
+
+a:hover {
+    color: #D8EFFD;
+}
+
+li:hover {
+    background-color: #341F28;
+
+    
+}
+
+
+
