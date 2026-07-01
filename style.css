@@ -71,6 +71,21 @@ body{
     background-color: #341F28;
 }
 
+.project-link{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #341F28;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover{
+    background-color: #341F28;
+    color: #D8EFFD;
+}
+
 .cat-album{
     display: flex;
     gap: 20px;
